@@ -2,16 +2,22 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+# for MAC
+ProductCase/**/StreamingAssets/build_info.txt
+ProductCase/**/assetDatabase3
+ProductCase/**/.DS_Store
+ProductCase/Temp/
+ProductCase/**/CurrentLayout.dwlt
+ProductCase/Assets/StreamingAssets/build_info.txt
+ProductCase/Library/
+ProductCase/obj/
+ProductCase/Logs/
+ProductCase/.idea/
+ProductCase/Assets/Plugins/Sirenix/Demos
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+!/Assets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -57,4 +63,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
